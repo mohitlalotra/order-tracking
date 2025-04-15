@@ -1,0 +1,58 @@
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 90%;
+    margin: 5rem auto 2rem auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(to right, orange, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .track-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    font-weight: 500;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #7a5ef8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #5a3fdc;
+  }
+  
+  .info {
+    margin-top: 1.5rem;
+    font-size: 14px;
+  }
+  
